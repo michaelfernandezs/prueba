@@ -5,9 +5,8 @@ import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 const Navbar=()=>{
     const [click,setClick]=useState(false);
-    const handleClick=  ()=>{
-
-    }
+    const handleClick = ()=>setClick(!click);
+    
     const content =<>
   
     <div  className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
@@ -31,7 +30,7 @@ const Navbar=()=>{
     </>
     return(
        <nav>
-        <div className="h-10vh flex  justify-between z-50 text-white lg:py-5 px-20 py-4 flex-1" >
+        <div className="h-10vh flex  justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800" >
             <div className="flex items-center flex-1">
             <span className="text - text-3xl font-bold">Logo</span>
             </div>
@@ -59,13 +58,15 @@ const Navbar=()=>{
         <div>
             {click&&content}
         </div>
-        <button className="block sm:hidden transition onClick={handleClick}">
+        <button className="block sm:hidden transition" onClick={handleClick}>
            {click?<FaTimes/>:<CiMenuFries/>}
         </button>
         </div>
 
        </nav>
+
     );
+
 }
 
 export default Navbar;
