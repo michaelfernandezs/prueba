@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import About from "./components/About"
+import Services from "./components/Services"
 function App() {
  
 
@@ -12,7 +13,7 @@ function App() {
      <Navbar/>
      <Banner/>
      <About/>
-   
+     <Services/>
      </div>
   )
 }

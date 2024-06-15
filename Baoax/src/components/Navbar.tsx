@@ -14,11 +14,11 @@ const Navbar=()=>{
             <Link spy={true} smooth={true} to="Home">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded"> Home </li>
             </Link >
-            <Link  spy={true} smooth={true} to="Conocenos">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded"> conocenos </li>
+            <Link  spy={true} smooth={true} to="About">
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded"> About </li>
             </Link>
-            <Link spy={true} smooth={true} to="Donaciones">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded"> Donaciones </li>
+            <Link spy={true} smooth={true} to="Services">
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded"> Services </li>
             </Link>
             <Link spy={true} smooth={true} to="Contacto">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded"> Contacto </li>
@@ -41,11 +41,11 @@ const Navbar=()=>{
             <Link spy={true} smooth={true} to="Home">
             <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-500 hover:border-fuchsia-600 cursor-pointer"> Home </li>
             </Link > 
-            <Link spy={true} smooth={true} to="Conocenos">
-            <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-500 hover:border-fuchsia-600 cursor-pointer"> conocenos </li>
+            <Link spy={true} smooth={true} to="About">
+            <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-500 hover:border-fuchsia-600 cursor-pointer"> About </li>
             </Link>
-            <Link spy={true} smooth={true} to="Donaciones">
-            <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-500 hover:border-fuchsia-600 cursor-pointer"> Donaciones </li>
+            <Link spy={true} smooth={true} to="Services">
+            <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-500 hover:border-fuchsia-600 cursor-pointer"> Services </li>
             </Link>
             <Link spy={true} smooth={true} to="Contacto">
             <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-500 hover:border-fuchsia-600 cursor-pointer"> Contacto </li>
