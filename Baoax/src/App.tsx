@@ -3,10 +3,10 @@ import Banner from "./components/Banner"
 import About from "./components/About"
 import Services from "./components/Services"
 import Projects from "./components/Projects"
-import Contact from "./components/Contac"
 import Footer from "./components/Footer"
 import { useEffect, useState } from "react"
 import {Circles } from "react-loader-spinner"
+import Contact from "./components/Contact"
 
 const App=()=> {
  
