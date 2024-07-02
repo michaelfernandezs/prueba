@@ -2,11 +2,11 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer=()=>{
     return(
-        <footer className="bg-slate-800 text-white lg:px-48 px-4 py-20">
+        <footer className="bg-blue-500 text-white lg:px-48 px-4 py-20">
             <div className="container mx-auto grid grid-cols-1   md:grid-cols-4 gap-4">
                 <div className="mb-4 md:mb-0">
-                    <span className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Logo</span>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae aliquam dolorem fugit, autem repudiandae provident optio doloremque quam minima temporibus, officia error nobis labore architecto laudantium expedita consequuntur? Placeat, nihil!</p>
+                    <span className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Professiona Summary</span>
+                    <p> Reliable candidate ready to take on challenges using problem-solving and task prioritization skills to help the team succeed.</p>
                 </div>
             
             <div>

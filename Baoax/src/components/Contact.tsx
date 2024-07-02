@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
         <div className="lg:flex gap-9">
           <input
             name="name"
-            className="w-full lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
+            className="w-full lg:my-3 my-4 rounded-lg bg-blue-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
             placeholder="Enter your Name"
             type="text"
             value={formData.name}
@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
           />
           <input
             name="email"
-            className="w-full lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
+            className="w-full lg:my-3 my-4 rounded-lg bg-blue-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
             placeholder="Enter your Email"
             type="email"
             value={formData.email}
@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
         </div>
         <textarea
           name="message"
-          className="w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
+          className="w-full my-3 rounded-lg bg-blue-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
           placeholder="Write your Message.."
           id="message"
           value={formData.message}
@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
           rows={10}
         />
         <button
-          className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 border-fuchsia-800 bg-fuchsia-800 hover:bg-slate-900 rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden b_glow text-xl text-bold mb-10"
+          className="neno-button shadow-xl hover:shadow-blue-850/50 text-white border-2 border-blue-800 bg-blue-800 hover:bg-blue-800 rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden b_glow text-xl text-bold mb-10"
           type="submit"
         >
           Submit

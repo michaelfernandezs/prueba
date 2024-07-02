@@ -11,7 +11,7 @@
 }
 
 .img.glow{
-    box-shadow: 0 0 55px rgb(206, 71, 193)
+    box-shadow: 0 0 55px rgb(123, 2, 171)
 }
 
 .neno-button{
@@ -19,8 +19,8 @@
 }
 
 .neno-button:hover{
- box-shadow: 0 0 15px rgb(206,71,179);
+ box-shadow: 0 0 15px rgba(78, 2, 242, 0.53);
 }
 .b_glow{
-    box-shadow: 0 0 15px rgb(206,71,179);
+    box-shadow: 0 0 15px rgb(85, 2, 219);
 }

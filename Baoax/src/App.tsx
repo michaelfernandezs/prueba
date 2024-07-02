@@ -25,7 +25,7 @@ const App=()=> {
     <>
     {
       loading ?
-    <div className="bg-slate-900 h-100 flex justify-center items-center">
+    <div className="bg-blue-600 h-100 flex justify-center items-center">
       <Circles
       height="80"
       width="80"
@@ -39,7 +39,7 @@ const App=()=> {
       
 
       :
-      <div className="bg-slate-900">
+      <div className="bg-gradient-to-r from-blue-600 to-blue-900">
 
       <Navbar/>
       <Banner/>
